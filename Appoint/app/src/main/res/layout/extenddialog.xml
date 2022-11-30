@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1440px"
+    android:layout_height="720px"
+    android:background="@drawable/shape"
+    android:layout_marginLeft="240px"
+    android:layout_marginTop="130px"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="192px"
+        android:id="@+id/title"
+        android:layout_height="67px"
+        android:layout_marginLeft="136px"
+        android:layout_marginTop="39px"
+        android:text="备注"
+        android:textColor="#464B5C"
+        android:textSize="48px"/>
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="1176px"
+        android:layout_height="388px"
+        android:layout_marginLeft="135px"
+        android:layout_marginTop="40px"
+        android:paddingLeft="32px"
+        android:paddingTop="24px"
+        android:gravity="top"
+        android:textColorHint="#454B5C "
+        android:hint="车辆的零件出现了摩擦声,影响正常驾驶"
+        android:background="@drawable/shape1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="48px"
+        android:layout_height="90px">
+        <Button
+            android:layout_width="420px"
+            android:id="@+id/yes"
+            android:layout_height="90px"
+            android:text="保存"
+            android:layout_marginLeft="260px"
+            android:textSize="28px"
+            android:background="@drawable/shape2"/>
+        <Button
+            android:layout_width="420px"
+            android:layout_height="90px"
+            android:id="@+id/no"
+            android:text="取消"
+            android:layout_marginLeft="80px"
+            android:textSize="28px"
+            android:background="@drawable/shape2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
