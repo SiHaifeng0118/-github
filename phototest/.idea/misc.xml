@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/phototest/app/src/main/res/drawable/selecter_play.xml" value="0.1" />
+        <entry key="..\:/Android/phototest/app/src/main/res/layout/activity_baidu_map.xml" value="0.1203125" />
         <entry key="..\:/Android/phototest/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/Android/phototest/app/src/main/res/layout/activity_movie.xml" value="0.1484375" />
-        <entry key="..\:/Android/phototest/app/src/main/res/layout/activity_picture.xml" value="0.1484375" />
+        <entry key="..\:/Android/phototest/app/src/main/res/layout/activity_movie.xml" value="0.22" />
+        <entry key="..\:/Android/phototest/app/src/main/res/layout/activity_picture.xml" value="0.14666666666666667" />
         <entry key="..\:/Android/phototest/app/src/main/res/layout/dateitem.xml" value="0.11510416666666666" />
         <entry key="..\:/Android/phototest/app/src/main/res/layout/fragment_picture_test_picture.xml" value="0.17916666666666667" />
         <entry key="..\:/Android/phototest/app/src/main/res/layout/fragment_usb.xml" value="0.1015625" />

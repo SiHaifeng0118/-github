@@ -46,35 +46,27 @@ public class PictureActivity extends AppCompatActivity {
         setContentView(R.layout.activity_picture);
         PhotoView imageView = findViewById(R.id.PictureIV);
         imageView.enable();
-
         Intent intent = getIntent();
         path = intent.getStringExtra("picturepath");
-        date = intent.getStringExtra("pictureDate");/////////////
-
+        date = intent.getStringExtra("pictureDate");
         File file = new File(path);
         Glide.with(PictureActivity.this).load(path).into(imageView);
 
-        Uri uri = Uri.fromFile(file);
-        List<Uri> list = new ArrayList<>();
-        list.add(uri);
-    //    button.setOnClickListener(new View.OnClickListener() {
-     //       @Override
-    //        public void onClick(View view) {
-//                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-//                    PendingIntent pi = MediaStore.createDeleteRequest(getContentResolver(), list);
-//                    try {
-//                        startIntentSenderForResult(
-//                                pi.getIntentSender(), 1, null, 0, 0,
-//                                0
-//                        );
-//                    } catch (IntentSender.SendIntentException e) {
-//                        e.printStackTrace();
-//                    }
-//
-//                }
-//               MediaStore.createDeleteRequest(getContentResolver(),list);
-//            }
- //       });
+        TextView pic_Date = findViewById(R.id.pic_date);
+        TextView pic_Loc = findViewById(R.id.pic_Loc);
+        pic_Date.setText(date);
+
+        Button button = findViewById(R.id.bt);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(PictureActivity.this,BaiduMapActivity.class);
+                startActivity(intent1);
+            }
+        });
+
+
+
     }
 
 }

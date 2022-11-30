@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/fanhui"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="184dp"
+        android:layout_marginTop="125dp"
+        android:text="选择4s店"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+         />
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="54dp"
+        android:text="安徽"
+        android:textSize="28dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="219dp"
+        android:gravity="center"
+        android:background="#EAECF1"/>
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="244dp"
+        android:layout_marginTop="219dp"
+        android:background="#EAECF1"
+        android:gravity="center"
+        android:text="合肥"
+        android:textSize="28dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/number"
+        android:layout_marginLeft="426dp"
+        android:layout_marginTop="228dp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="463dp"
+        android:layout_marginTop="240dp"
+        android:text="重新定位"
+        android:textColor="#5F7BE4"
+        android:textSize="24dp"
+
+        />
+
+    <com.example.map.TRecyclerView
+        android:id="@+id/lv"
+        android:layout_width="1030dp"
+        android:layout_height="528dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="313dp"
+        android:layout_marginBottom="239dp"
+
+        />
+
+
+
+
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="871dp"
+        android:background="@drawable/shape"
+        android:text="确定"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        />
+    <ImageView
+        android:layout_width="610dp"
+        android:layout_height="528dp"
+        android:src="@drawable/map"
+        android:layout_marginLeft="1227dp"
+        android:layout_marginTop="313dp"
+        android:background="@drawable/shape1"
+
+        />
+
+</RelativeLayout>

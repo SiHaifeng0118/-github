@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Appoint2</string>
+    <string name="biaoti">预约保养/维修</string>
+    <string name="fuwuleixin">服务类型</string>
+    <string name="lianxixinming">联系姓名</string>
+    <string name="lianxifangshi">联系方式</string>
+    <string name="yuyue4sdian">预约4S店</string>
+<string name="yuyueshijian">预约时间</string>
+    <string name="shuruxinming">请输入姓名</string>
+    <string name="shurushouji">请输入手机号</string>
+    <string name="dianmianshili">长城新动力(汽车城店)</string>
+    <string name="xuanzeyuyueshijain">选择预约时间</string>
+    <string name="tijiaoyuyue">提交预约</string>
+    <string name="jichubaoyang">基础保养项目</string>
+    <string name="jiyou">机油</string>
+    <string name="jilv">机滤</string>
+    <string name="kongtiao">空调滤清</string>
+    <string name="gongshi">工时费</string>
+    <string name="beizhu">备注</string>
+    <string name="shurubeizhu">您可以输入您想备注的信息</string>
+    <string name="baocun">保存</string>
+    <string name="quxiao">取消</string>
+</resources>

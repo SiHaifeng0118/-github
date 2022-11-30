@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+    android:orientation="horizontal"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:background="@drawable/selecter"
+        >
+
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+
+        <ImageView
+            android:id="@+id/ivxuhao"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="69dp"
+            android:src="@drawable/number" />
+
+        <ImageView
+            android:id="@+id/ivtupian"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_launcher_background" />
+
+
+        <TextView
+            android:id="@+id/tvdianmin"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="284dp"
+            android:layout_marginTop="24dp"
+            android:text="广汽传祺（汽车城店）"
+
+            android:textColor="@color/black"
+            android:textSize="32dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="284dp"
+            android:layout_marginTop="79dp"
+            android:src="@drawable/ic_baseline_access_time_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="314dp"
+            android:layout_marginTop="72dp"
+
+            android:text="8:00-18:00"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="468dp"
+            android:layout_marginTop="79dp"
+            android:src="@drawable/ic_baseline_call_24" />
+
+        <TextView
+            android:id="@+id/tvdianhua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="497dp"
+            android:layout_marginTop="72dp"
+
+            android:text="051-88886666"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="920dp"
+            android:layout_marginTop="54dp"
+            android:src="@drawable/ic_round_panorama_fish_eye_24" />
+
+        <ImageView
+            android:layout_width="25.4dp"
+            android:layout_height="25.5dp"
+            android:layout_marginLeft="937.58dp"
+            android:layout_marginTop="72.18dp"
+            android:src="@drawable/ic_baseline_call_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="740dp"
+            android:layout_marginTop="72dp"
+            android:text="提供取送车"
+
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/tvjuli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="284dp"
+            android:layout_marginTop="115dp"
+            android:text="16.6KM"
+            android:textColor="#5F7BE4"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvdizhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="381dp"
+            android:layout_marginTop="115dp"
+            android:text="｜ 安徽省合肥瑶海区汽车城路2号西北90米"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="711dp"
+            android:layout_marginTop="74dp"
+            android:src="@drawable/yes" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="721dp"
+            android:layout_marginTop="82dp"
+            android:src="@drawable/done" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="220dp"
+        android:layout_height="168dp"
+        android:background="@drawable/shape3"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:text="删除" />
+
+
+    </LinearLayout>
+

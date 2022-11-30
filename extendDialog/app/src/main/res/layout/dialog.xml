@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="640dp"
+    android:layout_height="320dp"
+    android:layout_marginTop="57.77dp"
+    android:background="@drawable/write"
+    android:layout_marginLeft="106.66dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23.55dp"
+        android:layout_marginTop="23.55dp"
+        android:src="@drawable/ic_baseline_close_24" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60.44dp"
+        android:layout_marginTop="23.55dp"
+        android:text="@string/beizhu"
+        android:textColor="#464B5C"
+        android:textSize="21.33dp"
+        />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="522.66dp"
+        android:layout_height="172.44dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="64.88dp"
+        android:background="@drawable/edit"
+        android:gravity="top"
+        android:hint="@string/shurubeizhu"
+        android:paddingLeft="14.22dp"
+        android:paddingTop="10.66dp"
+        android:textSize="14.22dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="186.66dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="115.55dp"
+        android:layout_marginTop="258.66dp"
+        android:background="@drawable/button"
+        android:text="@string/baocun"
+        android:textSize="12.44dp" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="186.66dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="337.77dp"
+        android:layout_marginTop="258.66dp"
+        android:background="@drawable/quxiao"
+        android:text="@string/quxiao"
+        android:textSize="12.44dp" />
+
+    <TextView
+        android:layout_width="52.6dp"
+        android:layout_height="13.3dp"
+        android:layout_marginLeft="510dp"
+        android:layout_marginTop="214.22dp"
+        android:text="/200"
+        android:textSize="10.66dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="485dp"
+        android:layout_marginTop="214.22dp"
+        android:text="0"
+        android:textSize="10.66dp" />
+
+
+</RelativeLayout>

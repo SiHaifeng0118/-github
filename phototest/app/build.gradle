@@ -5,14 +5,23 @@ plugins {
 android {
     compileSdk 32
 
+    sourceSets {
+        main{
+            jniLibs.srcDirs = ['libs']
+        }
+    }
     defaultConfig {
         applicationId "com.example.phototest"
-        minSdk 30
+        minSdk 28
         targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//        ndk {
+//            //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
+//            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86","x86_64"
+//        }
     }
 
     buildTypes {
@@ -33,6 +42,12 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    //Google推荐的EasyPermission库
+    implementation 'pub.devrel:easypermissions:3.0.0'
+
+    implementation files('libs\\AMap3DMap_9.5.0_AMapSearch_9.5.0_AMapLocation_6.2.0_20221103.jar')
+    //  implementation files('libs\\AMap3DMap_9.5.0_AMapSearch_9.5.0_AMapLocation_6.2.0_20221103.jar')
     annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
     implementation 'org.greenrobot:eventbus:3.2.0'
     testImplementation 'junit:junit:4.13.2'

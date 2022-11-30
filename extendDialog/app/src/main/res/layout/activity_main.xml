@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_width="26.6dp"
+        android:layout_height="26.6dp"
+        android:src="@drawable/fanhui"
+        android:layout_marginLeft="37.77dp"
+        android:layout_marginTop="53.3dp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="81.77dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/biaoti"
+        android:textColor="#454B5C" />
+
+    <RelativeLayout
+        android:layout_width="443.32dp"
+        android:layout_height="70.92dp"
+        android:layout_marginLeft="36.79dp"
+        android:layout_marginTop="97.09dp"
+        android:background="@drawable/rec">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="56.73dp"
+            android:layout_height="19.95dp"
+            android:layout_marginLeft="17.72dp"
+            android:layout_marginTop="25.70dp"
+            android:text="@string/fuwuleixin"
+            android:textColor="#454B5C"
+            android:textSize="14.17dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="212.8dp"
+        android:layout_height="93.33dp"
+        android:layout_marginLeft="36.79dp"
+        android:layout_marginTop="178.6589dp"
+        android:background="@drawable/rec">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.77dp"
+            android:layout_marginTop="17.77dp"
+            android:text="@string/lianxixinming"
+            android:textColor="#454B5C"
+            android:textSize="14.22dp" />
+
+        <EditText
+            android:layout_width="177.77dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.77dp"
+            android:layout_marginTop="59.55dp"
+            android:hint="@string/shuruxinming"
+            android:textSize="12.44dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="212.8dp"
+        android:layout_height="93.33dp"
+        android:layout_marginLeft="267.33dp"
+        android:layout_marginTop="178.6589dp"
+        android:background="@drawable/rec">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14.22dp"
+            android:textColor="#454B5C"
+            android:layout_marginLeft="17.77dp"
+            android:layout_marginTop="17.77dp"
+            android:text="@string/lianxifangshi"/>
+        <EditText
+            android:layout_width="177.77dp"
+            android:layout_marginLeft="17.77dp"
+            android:layout_marginTop="59.55dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/shurushouji"
+            android:textSize="12.44dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="212.8dp"
+        android:layout_height="93.33dp"
+        android:layout_marginLeft="36.79dp"
+        android:layout_marginTop="283.11dp"
+        android:background="@drawable/rec">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.77dp"
+            android:layout_marginTop="17.77dp"
+            android:text="@string/yuyue4sdian"
+            android:textColor="#454B5C"
+            android:textSize="14.22dp" />
+
+        <EditText
+            android:layout_width="177.77dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.77dp"
+            android:layout_marginTop="59.55dp"
+            android:hint="@string/yuyue4sdian"
+            android:textSize="12.44dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="212.8dp"
+        android:layout_height="93.33dp"
+        android:layout_marginLeft="267.33dp"
+        android:layout_marginTop="283.11dp"
+        android:background="@drawable/rec">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.77dp"
+            android:layout_marginTop="17.77dp"
+            android:text="@string/yuyueshijian"
+            android:textColor="#454B5C"
+            android:textSize="14.22dp" />
+
+        <EditText
+            android:layout_width="177.77dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.77dp"
+            android:layout_marginTop="59.55dp"
+            android:hint="@string/yuyueshijian"
+            android:textSize="12.44dp" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="115.55dp"
+        android:layout_height="35.56dp"
+        android:layout_marginLeft="36.89dp"
+        android:layout_marginTop="387.11dp"
+        android:background="@drawable/tijiaoselecter"
+        android:text="@string/tijiaoyuyue"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="9.33dp" />
+    <RelativeLayout
+        android:layout_width="302.22dp"
+        android:layout_height="279.11dp"
+        android:layout_marginLeft="499.11dp"
+        android:layout_marginTop="97.33dp"
+        android:background="@drawable/rec">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22.22dp"
+            android:layout_marginTop="22.22dp"
+            android:text="@string/jichubaoyang"
+            android:textColor="#454B5C"
+            android:textSize="14.22dp" />
+
+        <ImageView
+            android:layout_width="53.33dp"
+            android:layout_height="53.33dp"
+            android:layout_marginLeft="22.6dp"
+            android:layout_marginTop="55.55dp"
+            android:src="@drawable/jiyou" />
+        <ImageView
+            android:layout_width="53.33dp"
+            android:layout_height="53.33dp"
+            android:layout_marginLeft="91.11dp"
+            android:layout_marginTop="55.55dp"
+            android:src="@drawable/jilv"/>
+        <ImageView
+            android:layout_width="53.33dp"
+            android:layout_height="53.33dp"
+            android:layout_marginLeft="159.11dp"
+            android:layout_marginTop="55.55dp"
+            android:src="@drawable/kongtiao"/>
+        <ImageView
+            android:layout_width="53.33dp"
+            android:layout_height="53.33dp"
+            android:layout_marginLeft="226.66dp"
+            android:layout_marginTop="55.55dp"
+            android:src="@drawable/gongshifei"/>
+
+        <TextView
+            android:layout_width="53.33dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22.6dp"
+            android:layout_marginTop="113.33dp"
+            android:gravity="center"
+            android:text="@string/jiyou"
+            android:textColor="#454B5C"
+            android:textSize="10.66dp" />
+        <TextView
+            android:layout_width="53.33dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jilv"
+            android:layout_marginLeft="91.11dp"
+            android:layout_marginTop="113.33dp"
+            android:textSize="10.66dp"
+            android:gravity="center"
+            android:textColor="#454B5C"/>
+        <TextView
+            android:layout_width="53.33dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kongtiao"
+            android:layout_marginLeft="159.11dp"
+            android:layout_marginTop="113.33dp"
+            android:textSize="10.66dp"
+            android:gravity="center"
+            android:textColor="#454B5C"/>
+        <TextView
+            android:layout_width="53.33dp"
+            android:layout_height="wrap_content"
+            android:text="@string/gongshi"
+            android:layout_marginLeft="226.66dp"
+            android:layout_marginTop="113.33dp"
+            android:textSize="10.66dp"
+            android:gravity="center"
+            android:textColor="#454B5C"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22.22dp"
+            android:layout_marginTop="145.77dp"
+            android:text="@string/beizhu"
+            android:textColor="#454B5C"
+            android:textSize="14.22dp" />
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="257.77dp"
+            android:layout_height="86.66dp"
+            android:layout_marginLeft="22.22dp"
+            android:layout_marginTop="174.66dp"
+            android:background="@drawable/edit"
+            android:gravity="top"
+            android:hint="@string/shurubeizhu"
+            android:paddingLeft="8.88dp"
+            android:paddingTop="6.22dp"
+            android:textSize="12.44dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
